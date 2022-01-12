@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>おみくじ</title>
+  <link rel="stylesheet" href="css/Omikuji.css" />
+</head>
+<body>
+  <script class="Omikuji">
+    let Kujis = ['大吉', '吉', '吉', '中吉', '中吉', '小吉', '小吉', '末吉', '末吉', '凶', '凶', '大凶'];
+    let Kuji = Math.floor(Math.random() *Kujis.length);
+
+    document.write('<p class="Unsei-txt">あなたの今年の運勢は、</p>' + Kujis[Kuji] + '<p class="Unsei-txt">です</p>')
+  </script>
+</body>
+</html>
