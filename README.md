@@ -23,4 +23,4 @@ CSS
 
 
 
-Ｊａｖａｓｃｒｉｐｔ
+javascript
