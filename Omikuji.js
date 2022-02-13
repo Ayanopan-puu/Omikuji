@@ -1,5 +1,4 @@
 const start = document.getElementById("start");
-const result = document.getElementById("result");
 
 let Kujis = [
   "大吉",
